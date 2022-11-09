@@ -1,2 +1,2 @@
 # CleanSound
-recreation project for FemCoders bootcamp
+web recreation project for FemCoders bootcamp
