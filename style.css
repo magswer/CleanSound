@@ -1,5 +1,16 @@
-/*_____FOOTER_____*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+/* Para movil */
+@media screen and (max-width: 576px){
 
+/* Header */
+
+
+
+/* Main */
+
+
+    
+/* Footer */
 * {
     box-sizing: border-box;
     margin: 0; 
@@ -10,17 +21,11 @@
 
 
 .containerFooter {
-    /*display: flex;
+    display: flex;
     flex-direction: column;
     align-content: flex-end;
     font-family: 'Lato', sans-serif;
-    justify-content: center;*/
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    
-
-
-
+    justify-content: center;
 }
 h5 {
     color: white;
@@ -46,3 +51,21 @@ h5 {
     font-weight: bold;
     
 }
+
+
+}
+
+
+/* Para desktop */
+@media screen and (max-width: px){
+
+    /* Header */
+    
+    
+    
+    /* Main */
+    
+
+    /* Footer */
+
+    }
