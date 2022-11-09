@@ -13,9 +13,17 @@ main{
     box-sizing: border-box;
     display: flex;
     flex-direction: column-reverse;
+    background-color: #010020;
+    align-items: center;
 }
 .boxLeft{
     width: 25%;
+}
+.titleMain{
+    color: white;
+}
+.textMain{
+    color: gray;
 }
 .boxRight{
     width: 75%;
