@@ -55,8 +55,56 @@ main{
 #img-principal{
     width: 50%;
 }
+
 /* Footer */
 
+footer {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+    background-color: #010020;
+    
+}
+
+
+.containerFooter {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+    width: 100%; 
+
+}
+h3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 5.5vh;
+}
+
+.subtextFooter {
+    color: #545470;
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+}
+
+.buttonFooter {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    height: 2.8rem;
+    width: 8.5rem;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:40%;
+    margin-left: 30%;
+    margin-top: 2%;
+    
+}
 
 }
 /* Para desktop */
@@ -83,33 +131,39 @@ main{
     .containerFooter {
         display: flex;
         flex-direction: column;
-        align-content: flex-end;
+        align-content: center;
         font-family: 'Lato', sans-serif;
         justify-content: center;
-        gap: 0.002rem;
+        width: 100%; 
+
     }
     h3 {
         color: white;
         display: flex;
         justify-content: center;
+        font-size: 5.5vh;
     }
     
     .subtextFooter {
         color: #545470;
         display: flex;
         justify-content: center;
+        font-size: 3vh;
     }
     
     .buttonFooter {
         background-color: white;
         color: black;
+        font-weight: bolder;
         height: 2.8rem;
         width: 8.5rem;
         border-radius: 1.5rem;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-weight: bold;
+        margin-bottom: 2%;
+        margin-left: 45%;
+        margin-top: 2%;
         
     }
     
