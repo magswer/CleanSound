@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 /* Para movil */
 @media screen and (max-width: 576px){
+/* Lo que debe haber en toda la página, como el color 
+y la fuente, y el padding 0 margin 0 boxsizing */
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
 
 /* Header */
 
@@ -8,26 +16,45 @@
 
 /* Main */
 main{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
     display: flex;
     flex-direction: column-reverse;
     background-color: #010020;
     align-items: center;
+    
 }
 .boxLeft{
-    width: 25%;
+    width: 100%;
+    padding-top: 10%;
+    padding-left: 45%;
+    padding-bottom: 10%;
 }
 .titleMain{
+    width: 50%;
     color: white;
+    font-size: 8vw;
+    font-weight: bold;
+    margin: 0%;
 }
 .textMain{
-    color: gray;
+    color: #545470;
+    font-size: 3vw;
+}
+.btnHit{
+    height: 2.8rem;
+    width: 8.5rem;
+    border-radius: 1.5rem;
+    background-color: #00F482;
+    color: white;
 }
 .boxRight{
-    width: 75%;
+    display: flex;
+    width: 85%;
+    justify-items: center;
 }  
+
+#img-principal{
+    width: 50%;
+}
 /* Footer */
 
 
