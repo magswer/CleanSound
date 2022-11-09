@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+/* Para movil */
+@media screen and (max-width: 576px){
+
+/* Header */
+
+
+
+/* Main */
+
+
+    
+/* Footer */
+
+}
+
+
+/* Para desktop */
+@media screen and (max-width: px){
+
+    /* Header */
+    
+    
+    
+    /* Main */
+    
+
+    /* Footer */
+
+    }
