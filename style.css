@@ -3,13 +3,21 @@
 @media screen and (max-width: 576px){
 /* Lo que debe haber en toda la página, como el color 
 y la fuente, y el padding 0 margin 0 boxsizing */
+
+
+html {
+    font-size: 62.5%;
+}
+
 body{
     padding:0;
     margin:0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
     background-color: #010020;
+    scroll-behavior: smooth;
 }
+
 
 /* Header */
 
@@ -72,16 +80,17 @@ main{
     width: 50%;
 }
 
-/* Footer */
+/* Footer movil */
 
 footer {
     box-sizing: border-box;
     margin: 0; 
     padding: 0; 
     background-color: #010020;
+    height: 100vh;
+    width: 100wh;
     
 }
-
 
 .containerFooter {
     display: flex;
@@ -89,15 +98,15 @@ footer {
     align-content: center;
     font-family: 'Lato', sans-serif;
     justify-content: center;
-    width: 100%; 
-    height: 100%;
+    align-items: center;
 
 }
+
 h3 {
     color: white;
     display: flex;
     justify-content: center;
-    font-size: 5.5vw;
+    font-size: 1.2rem;
     
 }
 
@@ -105,22 +114,21 @@ h3 {
     color: #545470;
     display: flex;
     justify-content: center;
-    font-size: 3vw;
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+
 }
 
 .buttonFooter {
+    font-size: 0.8rem;
     background-color: white;
     color: black;
     font-weight: bolder;
     height: 2.8rem;
     width: 8.5rem;
     border-radius: 1.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom:40%;
-    margin-left: 35%;
-    margin-top: 2%;
+    align-self: center;
+    margin: 0;
     
 }
 
@@ -143,12 +151,13 @@ h3 {
     /* Main */
     
 
-    /* Footer */
+    /* Footer desktop*/
 
     footer {
         box-sizing: border-box;
         margin: 0; 
         padding: 0; 
+        font-size: 62.5%;
         
     }
     
@@ -159,6 +168,7 @@ h3 {
         align-content: center;
         font-family: 'Lato', sans-serif;
         justify-content: center;
+        gap: 0.2rem;
         width: 100%; 
 
     }
@@ -166,14 +176,16 @@ h3 {
         color: white;
         display: flex;
         justify-content: center;
-        font-size: 5.5vh;
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
     }
     
     .subtextFooter {
         color: #545470;
         display: flex;
         justify-content: center;
-        font-size: 3vh;
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
     }
     
     .buttonFooter {
@@ -183,12 +195,8 @@ h3 {
         height: 2.8rem;
         width: 8.5rem;
         border-radius: 1.5rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        align-self: center;
         margin-bottom: 2%;
-        margin-left: 45%;
-        margin-top: 2%;
         
     }
     
