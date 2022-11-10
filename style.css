@@ -21,20 +21,36 @@ body{
 
 /* Header */
 
-.logoimg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-
-}
-
-.menubutton{
+.btn-group {
     display: flex;
     justify-content: right;
-    align-items: center;  
+    width: 86px;
+    height: 40px;
+    left: 269px;
+    top: 26px;
 }
 
+
+.menuLines{
+    width: 46px;
+    height: 40px;
+    
+}
+
+.btn{
+    height: 2.8rem;
+    width: rem;
+    border-radius: 1.5rem;
+    color:white;
+    background-color: #00F482; 
+}
+
+.logo-img {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 30% 0px 30px 0px;
+}
 
 
 
@@ -63,7 +79,7 @@ main{
     color: #545470;
     font-size: 3vw;
 }
-.btnHit{
+.buttonHit{
     height: 2.8rem;
     width: 8.5rem;
     border-radius: 1.5rem;
@@ -143,7 +159,7 @@ h3 {
         font-family: 'Lato', sans-serif;
         background-color: #010020;
     }
-    
+
     /* Header */
     
     
