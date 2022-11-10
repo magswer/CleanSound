@@ -13,20 +13,23 @@ body{
 
 /* Header */
 
+.buttonMenu{
+
+    display: flex;
+    align-items: right;
+    height: 2.8rem;
+    width: 4rem;
+    border-radius: 1.5rem;
+    background-color: #00F482;
+    color: white; 
+}
+
 .logoimg {
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 
 }
-
-.menubutton{
-    display: flex;
-    justify-content: right;
-    align-items: center;  
-}
-
 
 
 
@@ -55,7 +58,7 @@ main{
     color: #545470;
     font-size: 3vw;
 }
-.btnHit{
+.buttonHit{
     height: 2.8rem;
     width: 8.5rem;
     border-radius: 1.5rem;
@@ -133,7 +136,7 @@ h3 {
         font-family: 'Lato', sans-serif;
         background-color: #010020;
     }
-    
+
     /* Header */
     
     
