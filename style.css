@@ -14,18 +14,14 @@ body{
 /* Header */
 
 .btn-group {
-    display: flex;
-    justify-content: right;
-    width: 86px;
-    height: 40px;
-    left: 269px;
-    top: 26px;
+    width: max(100px);
+    height: 30%;
 }
 
 
 .menuLines{
-    width: 46px;
-    height: 40px;
+    width: 50%;
+    height: 100%;
     
 }
 
