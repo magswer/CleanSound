@@ -44,6 +44,9 @@ body{
     margin: 30% 0px 30px 0px;
 }
 
+.navdesktop{
+    display: none;
+}
 
 
 
@@ -142,7 +145,7 @@ h3 {
 
 }
 /* Para desktop */
-@media screen and (max-width: 1440px){
+@media screen and (min-width: 576px){
 
     body{
         padding:0;
@@ -153,8 +156,14 @@ h3 {
     }
 
     /* Header */
+    .btn{
+        display: none;
+    }
     
-    
+    .navdesktop{
+        display: flex;
+        color: white;
+    }
     
     /* Main */
     
