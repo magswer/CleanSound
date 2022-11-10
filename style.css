@@ -47,9 +47,7 @@ body{
     color:white;
     background-color: #00F482; 
 }
-.logotype{
-    weight: 100%
-}
+
 .logo-img {
     display: flex;
     justify-content: center;
@@ -167,24 +165,34 @@ h3 {
     }
 
     /* Header */
+    
+    header{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 2%;
+    }
+    
     .btn{
         display: none;
     }
-    
+    .logo-img {
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+    }
+
     .navdesktop{
         display: flex;
         color: white;
-
-    }
-
-    header{
-        display: flex;
-        justify-content: space-around;
+        flex-grow: 2;
+        font-weight: 600;
+        font-size: 22px;
     }
 
     span {
         color:#056745;
     }
+
 
     ul {
         list-style: none;
