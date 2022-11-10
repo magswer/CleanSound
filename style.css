@@ -13,22 +13,36 @@ body{
 
 /* Header */
 
-.buttonMenu{
-
+.menu_block{
     display: flex;
-    align-items: right;
+    position: absolute;
+    
+
+}
+
+
+.menuLines{
+    width: 86px;
+    height: 40px;
+    left: 269px;
+    top: 26px;
+
+}
+.buttonMenu{
     height: 2.8rem;
-    width: 4rem;
+    width: rem;
     border-radius: 1.5rem;
     background-color: #00F482;
-    color: white; 
+  
 }
+
 
 .logoimg {
     display: flex;
     justify-content: center;
     align-items: center; 
-
+    
+    margin: 30% 0px 30px 0px;
 }
 
 
