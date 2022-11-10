@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 /* Para movil */
 @media screen and (max-width: 576px){
+/* Lo que debe haber en toda la página, como el color 
+y la fuente, y el padding 0 margin 0 boxsizing */
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
 
 /* Header */
 
@@ -22,16 +30,100 @@
 
 
 /* Main */
-
-
+main{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #010020;
+    align-items: center;
     
+}
+.boxLeft{
+    width: 100%;
+    padding-top: 10%;
+    padding-left: 45%;
+    padding-bottom: 10%;
+}
+.titleMain{
+    width: 50%;
+    color: white;
+    font-size: 8vw;
+    font-weight: bold;
+    margin: 0%;
+}
+.textMain{
+    color: #545470;
+    font-size: 3vw;
+}
+.btnHit{
+    height: 2.8rem;
+    width: 8.5rem;
+    border-radius: 1.5rem;
+    background-color: #00F482;
+    color: white;
+}
+.boxRight{
+    display: flex;
+    width: 85%;
+    justify-items: center;
+}  
+
+#img-principal{
+    width: 50%;
+}
+
 /* Footer */
 
+footer {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+    background-color: #010020;
+    
 }
 
 
+.containerFooter {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+    width: 100%; 
+
+}
+h3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 5.5vh;
+}
+
+.subtextFooter {
+    color: #545470;
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+}
+
+.buttonFooter {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    height: 2.8rem;
+    width: 8.5rem;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:40%;
+    margin-left: 30%;
+    margin-top: 2%;
+    
+}
+
+}
 /* Para desktop */
-@media screen and (max-width: px){
+@media screen and (max-width: 1440px){
 
     /* Header */
     
@@ -42,4 +134,52 @@
 
     /* Footer */
 
+    footer {
+        box-sizing: border-box;
+        margin: 0; 
+        padding: 0; 
+        background-color: #010020;
+        
     }
+    
+    
+    .containerFooter {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        font-family: 'Lato', sans-serif;
+        justify-content: center;
+        width: 100%; 
+
+    }
+    h3 {
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-size: 5.5vh;
+    }
+    
+    .subtextFooter {
+        color: #545470;
+        display: flex;
+        justify-content: center;
+        font-size: 3vh;
+    }
+    
+    .buttonFooter {
+        background-color: white;
+        color: black;
+        font-weight: bolder;
+        height: 2.8rem;
+        width: 8.5rem;
+        border-radius: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2%;
+        margin-left: 45%;
+        margin-top: 2%;
+        
+    }
+    
+}
