@@ -16,8 +16,6 @@ body{
 .menu_block{
     display: flex;
     position: absolute;
-    
-
 }
 
 
@@ -26,22 +24,20 @@ body{
     height: 40px;
     left: 269px;
     top: 26px;
-
 }
-.buttonMenu{
+
+.btn{
     height: 2.8rem;
     width: rem;
     border-radius: 1.5rem;
-    background-color: #00F482;
-  
+    color:white;
+    background-color: #00F482; 
 }
 
-
-.logoimg {
+.logo-img {
     display: flex;
     justify-content: center;
     align-items: center; 
-    
     margin: 30% 0px 30px 0px;
 }
 
