@@ -21,11 +21,18 @@ body{
 
 /* Header */
 
-.btn-group {
-    width: max(100px);
+
+
+.verde {
+    display: flex;
+    justify-content: right;
+    width: 100%;
     height: 30%;
 }
 
+.dropdown-toggle::after{
+    content: none;
+}
 
 .menuLines{
     width: 50%;
