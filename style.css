@@ -171,7 +171,25 @@ h3 {
     .navdesktop{
         display: flex;
         color: white;
+
     }
+
+    header{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    span {
+        color:#056745;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+
+
     
   /*************************    Main    **********************/
     main{
