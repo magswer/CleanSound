@@ -13,17 +13,20 @@ body{
 
 /* Header */
 
-.menu_block{
+.btn-group {
     display: flex;
-    position: absolute;
-}
-
-
-.menuLines{
+    justify-content: right;
     width: 86px;
     height: 40px;
     left: 269px;
     top: 26px;
+}
+
+
+.menuLines{
+    width: 46px;
+    height: 40px;
+    
 }
 
 .btn{
