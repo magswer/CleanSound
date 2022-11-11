@@ -68,6 +68,11 @@ main{
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.circleHit{
+    margin-top: 50%;
 }
 .boxLeft{
     width: 100%;
@@ -228,6 +233,11 @@ h3 {
     main{
         display: flex;
         align-items: center;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .botonMobile{
+        display: none;
     }
     .boxLeft{
         padding-left: 10%;
