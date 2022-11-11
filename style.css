@@ -1,17 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 /* Para movil */
 @media screen and (max-width: 576px){
-/* Lo que debe haber en toda la página, como el color 
+/* Lo que debe haber en toda la página, como el color
 y la fuente, y el padding 0 margin 0 boxsizing */
-
-a:link, a:visited, a:active {
-    text-decoration:none;
-}
-
 html {
     font-size: 62.5%;
 }
-
 body{
     padding:0;
     margin:0;
@@ -20,33 +14,20 @@ body{
     background-color: #010020;
     scroll-behavior: smooth;
 }
-
-
 /* Header */
-
-
-
 .verde {
     display: flex;
     justify-content: right;
     width: 100%;
     height: 30%;
 }
-
 .dropdown-toggle::after{
     content: none;
 }
-
 .menuLines{
     width: 50%;
-    height: 100%;  
+    height: 100%;
 }
-
-.dropdown-menu li a{
-    color: black;
-    margin: 0px, 0px,0px, 5px;
-}
-
 .btn{
     height: 2.8rem;
     width: 6rem;
@@ -55,22 +36,16 @@ body{
     background-color: #00F482;
     margin: 20px
 }
-
 .logo-img {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     margin: 5% 0px 30px 0px;
     width: 50%;
 }
-
 .navdesktop{
     display: none;
 }
-
-
-
-
 /* Main */
 main{
     display: flex;
@@ -107,34 +82,28 @@ main{
     display: flex;
     width: 85%;
     justify-items: center;
-}  
-
+}
 #img-principal{
     width: 50%;
 }
 .botonMobile{
     height: 20rem;
     width: 20rem;
-    background-color: #19191c;
-    border-color: #27272d;
+    background-color: #19191C;
+    border-color: #27272D;
     border-radius: 100%;
     color: #545470;
     font-size: large;
-   
 }
 /* Footer movil */
-
 footer {
-   
     box-sizing: border-box;
-    margin: 0; 
-    padding: 0; 
+    margin: 0;
+    padding: 0;
     background-color: #010020;
     height: 100vh;
     width: 100wh;
-    
 }
-
 .containerFooter {
     display: flex;
     flex-direction: column;
@@ -142,26 +111,20 @@ footer {
     font-family: 'Lato', sans-serif;
     justify-content: center;
     align-items: center;
-
 }
-
 h3 {
     color: white;
     display: flex;
     justify-content: center;
     font-size: 1.2rem;
-    
 }
-
 .subtextFooter {
     color: #545470;
     display: flex;
     justify-content: center;
     font-size: 0.7rem;
     margin-bottom: 0.5rem;
-
 }
-
 .buttonFooter {
     font-size: 0.8rem;
     background-color: white;
@@ -172,57 +135,23 @@ h3 {
     border-radius: 1.5rem;
     align-self: center;
     margin: 0;
-    
 }
-
 }
 /* Para desktop */
 @media screen and (min-width: 576px){
-
     body{
         padding:0;
         margin:0;
         box-sizing: border-box;
         font-family: 'Lato', sans-serif;
         background-color: #010020;
-        scroll-behavior: smooth;
     }
-
-
     /* Header */
-
-    .btn-group {
-        display: flex;
-        justify-items: right;
-        align-items: right;
-        width: 25%; 
-    }
-
-    .dropdown-toggle::after{
-        content: none;
-    }
-
-    .dropdown-menu {
-        background-color: white;
-    }
-
-    .menuLines{
-        width: 50%;
-        height: 100%;  
-    }
-
-    .btn{
-        border-radius: 1.5rem;
-        background-color: #00F482;
-        margin: 20px
-    }
-    
     header{
         display: flex;
         justify-content: space-evenly;
         margin-top: 2%;
     }
-    
     .btn{
         display: none;
     }
@@ -231,7 +160,6 @@ h3 {
         flex-grow: 1;
         justify-content: center;
     }
-
     .navdesktop{
         display: flex;
         color: white;
@@ -239,49 +167,27 @@ h3 {
         font-weight: 600;
         font-size: 22px;
         justify-content: center;
-       
     }
-
-    .logo-img{
-        margin-left: 12% 
+    span {
+        color:#056745;
     }
-
-    .logo {
-        display: flex;
-        justify-content: center;
-        align-items: center; 
-        margin: 5% 0px 30px 0px;
-        width: 50%;
-    }
-
-    .navdesktop{
-        display: none;
-    }
-
-
-
-
     ul {
         list-style: none;
         display: flex;
         justify-content: space-around;
         width: 100%;
     }
-   
     li {
         width: 100%;
         display: flex;
         justify-content: space-around;
     }
-
     .raya {
         border-left: 1px solid white;
     }
-
-    /* Main */
+  /*************************    Main    **********************/
     main{
         display: flex;
-        flex-direction: column-reverse;
         align-items: center;
         margin-top: 10%;
         margin-bottom: 10%;
@@ -290,20 +196,18 @@ h3 {
         display: none;
     }
     .boxLeft{
-        width: 100%;
-        margin-left: 30%;
+        padding-left: 10%;
     }
     .titleMain{
-        width: 50%;
         color: white;
-        font-size: 8vw;
+        font-size: 6vw;
         font-weight: bold;
         margin: 0%;
         line-height: 90%;
     }
     .textMain{
         color: #545470;
-        font-size: 3vw;
+        font-size: 1.4vw;
     }
     .buttonHit{
         height: 2.8rem;
@@ -314,57 +218,42 @@ h3 {
     }
     .boxRight{
         display: flex;
-        width: 85%;
-        justify-items: center;
-    }  
-
+        width: 100%;
+        align-self: center;
+    }
     #img-principal{
         width: 50%;
     }
-
-
-    /* Footer movil */
-
+    /* Footer desktop*/
     footer {
-        
         box-sizing: border-box;
-        margin: 0; 
-        padding: 0; 
-        background-color: #010020;
-        height: 100vh;
-        width: 100wh;
-        
+        margin: 0;
+        padding: 0;
     }
-
     .containerFooter {
         display: flex;
         flex-direction: column;
         align-content: center;
         font-family: 'Lato', sans-serif;
         justify-content: center;
-        align-items: center;
-
+        gap: 0.2rem;
+        width: 100%;
     }
-
     h3 {
         color: white;
         display: flex;
         justify-content: center;
-        font-size: 1.2rem;
-        
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
     }
-
     .subtextFooter {
         color: #545470;
         display: flex;
         justify-content: center;
-        font-size: 0.7rem;
+        font-size: 1rem;
         margin-bottom: 0.5rem;
-
     }
-
     .buttonFooter {
-        font-size: 0.8rem;
         background-color: white;
         color: black;
         font-weight: bolder;
@@ -372,9 +261,9 @@ h3 {
         width: 8.5rem;
         border-radius: 1.5rem;
         align-self: center;
-        margin: 0;
-        
+        margin-bottom: 2%;
     }
+}
 
 
 
