@@ -40,10 +40,6 @@ body{
 .dropdown-toggle::after{
     content: none;
 }
-.menuLines{
-    width: 50%;
-    height: 100%;
-}
 
 .dropdown-menu li a{
     font-weight: bold;
@@ -53,6 +49,11 @@ body{
 
 .divider{
     margin: 10px;
+}
+
+.menuLines{
+    width: 50%;
+    height: 100%;
 }
 
 .logo-img {
@@ -112,6 +113,8 @@ main{
     color: #545470;
     font-size: large;
 }
+
+
 /* Footer movil */
 footer {
     box-sizing: border-box;
@@ -154,6 +157,9 @@ h3 {
     margin: 0;
 }
 }
+
+
+
 /* Para desktop */
 @media screen and (min-width: 576px){
     body{
@@ -163,7 +169,8 @@ h3 {
         font-family: 'Lato', sans-serif;
         background-color: #010020;
     }
-    /* Header */
+
+/* Header */
     header{
         display: flex;
         justify-content: space-evenly;
@@ -202,7 +209,8 @@ h3 {
     .raya {
         border-left: 1px solid white;
     }
-  /*************************    Main    **********************/
+
+/*  Main  */
     main{
         display: flex;
         align-items: center;
@@ -284,7 +292,7 @@ h3 {
 
 
 
-    /* Para desktop */
+/* Para desktop */
     @media screen and (min-width: 576px){
 
         body{
@@ -321,9 +329,8 @@ h3 {
             justify-content: space-around;
         }
 
-
         
-    /*************************    Main    **********************/
+    /*  Main */
         main{
             display: flex;
             align-items: center;
@@ -358,8 +365,7 @@ h3 {
             width: 50%;
         }
 
-        /* Footer desktop*/
-
+        /*  Footer desktop  */
         footer {
             box-sizing: border-box;
             margin: 0; 
