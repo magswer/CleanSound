@@ -106,7 +106,7 @@ main{
 
 footer {
     box-sizing: border-box;
-    margin: 0; 
+    margin-top: 7rem;
     padding: 0; 
     background-color: #010020;
     height: 100vh;
@@ -151,6 +151,8 @@ h3 {
     border-radius: 1.5rem;
     align-self: center;
     margin: 0;
+    border: none;
+
     
 }
 
@@ -233,8 +235,8 @@ h3 {
 
     footer {
         box-sizing: border-box;
-        margin: 0; 
         padding: 0; 
+        margin-top: 7rem;
         
     }
     
@@ -273,6 +275,7 @@ h3 {
         border-radius: 1.5rem;
         align-self: center;
         margin-bottom: 2%;
+        border: none;
         
     }
     
