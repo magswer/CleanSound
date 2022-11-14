@@ -17,9 +17,6 @@ body{
     background-color: #010020;
     scroll-behavior: smooth;
 }
-main{
-
-}
 /* Header */
 .verde {
     display: flex;
