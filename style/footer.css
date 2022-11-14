@@ -1,0 +1,83 @@
+@media screen and (max-width: 576px) {
+    footer {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        background-color: #010020;
+        height: 100vh;
+        width: 100wh;
+    }
+    .containerFooter {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        font-family: 'Lato', sans-serif;
+        justify-content: center;
+        align-items: center;
+    }
+    h3 {
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-size: 1.2rem;
+    }
+    .subtextFooter {
+        color: #545470;
+        display: flex;
+        justify-content: center;
+        font-size: 0.7rem;
+        margin-bottom: 0.5rem;
+    }
+    .buttonFooter {
+        font-size: 0.8rem;
+        background-color: white;
+        color: black;
+        font-weight: bolder;
+        height: 2.8rem;
+        width: 8.5rem;
+        border-radius: 1.5rem;
+        align-self: center;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    footer {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    .containerFooter {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        font-family: 'Lato', sans-serif;
+        justify-content: center;
+        gap: 0.2rem;
+        width: 100%;
+    }
+    h3 {
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+    }
+    .subtextFooter {
+        color: #545470;
+        display: flex;
+        justify-content: center;
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    .buttonFooter {
+        background-color: white;
+        color: black;
+        font-weight: bolder;
+        height: 2.8rem;
+        width: 8.5rem;
+        border-radius: 1.5rem;
+        align-self: center;
+        margin-bottom: 2%;
+    }
+}
