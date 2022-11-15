@@ -40,7 +40,6 @@
 .img-logo {
     margin: 40px;
 }
-
 .nav-desktop{
     display: none;
 }
@@ -55,25 +54,29 @@
         display: flex;
         justify-content: space-evenly;
         margin-top: 2%;
+        height: 10%;
     }
-    .btn-menu{
+    .btn-menu {
         display: none;
     }
-    .img-logotype{
+    .img-logotype {
         display: flex;
         flex-grow: 1;
         justify-content: center;
+        
     }
     .nav-desktop{
         display: flex;
         color: white;
         flex-grow: 2;
         font-weight: 600;
-        font-size: 22px;
+        font-size: 2rem;
         justify-content: center;
+        margin-right: 5%;
+        margin-left: 5%;
     }
     span {
-        color:#056745;
+        color: #00F482;
     }
     ul {
         list-style: none;
@@ -86,7 +89,11 @@
         display: flex;
         justify-content: space-around;
     }
-    .raya {
+    li:hover {
+        color: #00F482;
+    }
+
+    .stripe-logInLeft {
         border-left: 1px solid white;
     }
 }
