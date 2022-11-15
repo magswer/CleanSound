@@ -56,14 +56,17 @@
         display: flex;
         flex-grow: 1;
         justify-content: center;
+        
     }
     .navdesktop{
         display: flex;
         color: white;
         flex-grow: 2;
         font-weight: 600;
-        font-size: 22px;
+        font-size: 2rem;
         justify-content: center;
+        margin-right: 5%;
+        margin-left: 5%;
     }
     span {
         color:#056745;
