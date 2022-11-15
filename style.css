@@ -5,11 +5,8 @@
 y la fuente, y el padding 0 margin 0 boxsizing */
 html {
     font-size: 62.5%;
-    height: 100%;
 }
 body{
-    width:100vw;
-    height:100vh; 
     padding:0;
     margin:0;
     box-sizing: border-box;
@@ -142,9 +139,8 @@ h3 {
 }
 /* Para desktop */
 @media screen and (min-width: 576px){
-    html{
-        height: 90vh;
-        width: 90vw;
+    html {
+        height: 100%;
     }
     body{
         padding:0;
@@ -152,6 +148,7 @@ h3 {
         box-sizing: border-box;
         font-family: 'Lato', sans-serif;
         background-color: #010020;
+        height: 100%;
     }
     /* Header */
     header{
@@ -283,6 +280,7 @@ h3 {
             box-sizing: border-box;
             font-family: 'Lato', sans-serif;
             background-color: #010020;
+            height: 100vh;
         }
 
     /* Header */
@@ -316,16 +314,16 @@ h3 {
     /*************************    Main    **********************/
         main{
             display: flex;
-            align-items: center;
+            align-items: top;
         }
         .boxLeft{
-            padding-left: 10%;
+            padding-left: 8%;
+            align-items: top;
         }
         .titleMain{
             color: white;
-            font-size: 6vw;
+            font-size: 4vw;
             font-weight: bold;
-            margin: 0%;
         }
         .textMain{
             color: #545470;
@@ -335,17 +333,17 @@ h3 {
             height: 2.8rem;
             width: 8.5rem;
             border-radius: 1.5rem;
+            border-style: none;
             background-color: #00F482;
             color: white;
         }
         .boxRight{
             display: flex;
-            width: 100%;
-            align-self: center;
+            align-self: top;
         }  
         
         #img-principal{
-            width: 50%;
+            width: 100%;
         }
 
         /* Footer desktop*/
