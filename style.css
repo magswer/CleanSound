@@ -272,123 +272,125 @@ h3 {
 
 
     /* Para desktop */
-    @media screen and (min-width: 576px){
+@media screen and (min-width: 576px){
+html{
+    height: 100vh;
+}
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    background-color: #010020;
+    height: 100vh; /*DEberiat tomar el alto del screen*/
+}
 
-        body{
-            padding:0;
-            margin:0;
-            box-sizing: border-box;
-            font-family: 'Lato', sans-serif;
-            background-color: #010020;
-            height: 100vh;
-        }
+/* Header */
+.btn{
+    display: none;
+}
 
-    /* Header */
-        .btn{
-            display: none;
-        }
-        
-        .navdesktop{
-            display: flex;
-            color: white;
+.navdesktop{
+    display: flex;
+    color: white;
 
-        }
+}
 
-        header{
-            display: flex;
-            justify-content: space-around;
-        }
+header{
+    display: flex;
+    justify-content: space-around;
+}
 
-        span {
-            color:#056745;
-        }
+span {
+    color:#056745;
+}
 
-        ul {
-            list-style: none;
-            display: flex;
-            justify-content: space-around;
-        }
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
 
 
-        
-    /*************************    Main    **********************/
-        main{
-            display: flex;
-            align-items: top;
-        }
-        .boxLeft{
-            padding-left: 8%;
-            align-items: top;
-        }
-        .titleMain{
-            color: white;
-            font-size: 4vw;
-            font-weight: bold;
-        }
-        .textMain{
-            color: #545470;
-            font-size: 1.4vw;
-        }
-        .buttonHit{
-            height: 2.8rem;
-            width: 8.5rem;
-            border-radius: 1.5rem;
-            border-style: none;
-            background-color: #00F482;
-            color: white;
-        }
-        .boxRight{
-            display: flex;
-            align-self: top;
-        }  
-        
-        #img-principal{
-            width: 100%;
-        }
 
-        /* Footer desktop*/
+/*************************    Main    **********************/
+main{
+    display: flex;
+    align-items: top;
+}
+.boxLeft{
+    padding-left: 8%;
+    align-items: top;
+}
+.titleMain{
+    color: white;
+    font-size: 4vw;
+    font-weight: bold;
+}
+.textMain{
+    color: #545470;
+    font-size: 1.4vw;
+}
+.buttonHit{
+    height: 2.8rem;
+    width: 8.5rem;
+    border-radius: 1.5rem;
+    border-style: none;
+    background-color: #00F482;
+    color: white;
+}
+.boxRight{
+    display: flex;
+    align-self: top;
+}  
 
-        footer {
-            box-sizing: border-box;
-            margin: 0; 
-            padding: 0; 
-            
-        }
-        
-        .containerFooter {
-            display: flex;
-            flex-direction: column;
-            align-content: center;
-            font-family: 'Lato', sans-serif;
-            justify-content: center;
-            gap: 0.2rem;
-            width: 100%; 
+#img-principal{
+    width: 100%;
+}
 
-        }
-        h3 {
-            color: white;
-            display: flex;
-            justify-content: center;
-            font-size: 1.8rem;
-            margin-bottom: 0.5rem;
-        }
-        
-        .subtextFooter {
-            color: #545470;
-            display: flex;
-            justify-content: center;
-            font-size: 1rem;
-            margin-bottom: 0.5rem;
-        }
-        
-        .buttonFooter {
-            background-color: white;
-            color: black;
-            font-weight: bolder;
-            height: 2.8rem;
-            width: 8.5rem;
-            border-radius: 1.5rem;
-            align-self: center;
-            margin-bottom: 2%; 
-        }
+/* Footer desktop*/
+
+footer {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+    
+}
+
+.containerFooter {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+    gap: 0.2rem;
+    width: 100%; 
+
+}
+h3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.subtextFooter {
+    color: #545470;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.buttonFooter {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    height: 2.8rem;
+    width: 8.5rem;
+    border-radius: 1.5rem;
+    align-self: center;
+    margin-bottom: 2%; 
+}
 }
