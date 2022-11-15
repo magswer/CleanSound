@@ -6,7 +6,7 @@
     align-items: right;
     margin: 0px 0px 0px 75%;
 }
-.btn{
+.btn-menu{
     height: 2.8rem;
     width: 6rem;
     border-radius: 1.5rem;
@@ -25,23 +25,30 @@
     margin: 10px;
 }
 
-.divider{
-    margin: 10px;
-}
 
-.menuLines{
+.img-menuLines{
     width: 50%;
     height: 100%;
 }
 
-.logo-img {
-    margin: 40px;
-}
-.navdesktop{
-    display: none;
+
+.divider{
+    margin: 10px;
 }
 
+
+.img-logo {
+    margin: 40px;
 }
+
+.nav-desktop{
+    display: none;
+}
+}
+
+
+
+
 
 @media screen and (min-width: 576px) {
     header{
@@ -49,15 +56,15 @@
         justify-content: space-evenly;
         margin-top: 2%;
     }
-    .btn{
+    .btn-menu{
         display: none;
     }
-    .logo-img {
+    .img-logotype{
         display: flex;
         flex-grow: 1;
         justify-content: center;
     }
-    .navdesktop{
+    .nav-desktop{
         display: flex;
         color: white;
         flex-grow: 2;
