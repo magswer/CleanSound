@@ -39,10 +39,7 @@ main{
 .box-two-desktop{
     display: none;
 }
-#img-principal{
-    width: 100%;
-    height: 100%;
-}
+
 .btn-mobile{
     height: 20rem;
     width: 20rem;
