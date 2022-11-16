@@ -64,7 +64,7 @@ main{
     display: none;
 }
 .box-one{
-    padding-top: 4%;
+    padding-top: 2%;
     padding-left: 8%;
     padding-right: 8%;
 }
@@ -95,7 +95,6 @@ main{
     align-self: center;
 }
 #img-principal{
-    width: 80%;
-    height: 10%;
+    width: 100%;
 }
 }
