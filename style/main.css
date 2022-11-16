@@ -32,11 +32,12 @@ main{
     background-color: #00F482;
     color: white;
 }
-.box-two{
+.box-two-mobile{
     display: flex;
-    width: 80vw;
-    height: 50vh;
     justify-items: center;
+}
+.box-two-desktop{
+    display: none;
 }
 #img-principal{
     width: 100%;
@@ -82,10 +83,14 @@ main{
     height: 4rem;
     width: 14rem;
     border-radius: 2rem;
-    background-color: #04c269;
+    background-color: #00f482;
     color: white;
 }
-.box-two{
+
+.box-two-mobile{
+    display: none;
+}
+.box-two-desktop{
     display: flex;
     align-self: center;
 }
