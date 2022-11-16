@@ -34,8 +34,7 @@ main{
 }
 .box-two{
     display: flex;
-    width: 80vw;
-    height: 50vh;
+
     justify-items: center;
 }
 #img-principal{
@@ -82,7 +81,7 @@ main{
     height: 4rem;
     width: 14rem;
     border-radius: 2rem;
-    background-color: #04c269;
+    background-color: #00f482;
     color: white;
 }
 .box-two{
