@@ -55,7 +55,8 @@ main{
 main{
     display: flex;
     align-items: baseline;
-    height: 70%;
+    padding-top: 1%;
+    height: 63%;
 }
 .btn-mobile{
     display: none;
@@ -68,9 +69,9 @@ main{
 .txt-titleMain{
     margin: 0%;
     color: white;
-    font-size: 4.5vw;
+    font-size: 4vw;
     font-weight: bold;
-    line-height: 90%;
+    line-height: 95%;
 }
 .txt-main{
     padding-top: 4%;
