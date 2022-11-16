@@ -91,7 +91,9 @@ main{
     display: none;
 }
 .box-two-desktop{
+    display:flex;
     align-self: center;
+    height: 100%;
 }
 
 }
