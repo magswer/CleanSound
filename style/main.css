@@ -62,6 +62,7 @@ main{
     display: none;
 }
 .box-one{
+    width: 40%;
     padding-top: 2%;
     padding-left: 8%;
     padding-right: 8%;
@@ -92,7 +93,5 @@ main{
 .box-two-desktop{
     align-self: center;
 }
-#img-principal{
-    width: 100%;
-}
+
 }
