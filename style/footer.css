@@ -38,6 +38,7 @@
         border-radius: 1.5rem;
         align-self: center;
         margin: 0;
+        border: none;
     }
 }
 
@@ -79,5 +80,6 @@
         border-radius: 1.5rem;
         align-self: center;
         margin-bottom: 2%;
+        border: none;
     }
 }
