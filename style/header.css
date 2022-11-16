@@ -2,15 +2,15 @@
 
 .btn-group {
     display: flex;
-    justify-content: right;
-    align-items: right;
+    justify-content: left;
+    align-items: left;
     margin: 0px 0px 0px 75%;
+   
 }
-.btn{
+.btn-menu{
     height: 2.8rem;
     width: 6rem;
     border-radius: 1.5rem;
-    color:white;
     background-color: #00F482;
     margin: 20px;
 }
@@ -19,29 +19,45 @@
     content: none;
 }
 
+.dropdown-menu {
+    background-color: #010020;
+    opacity: 90%;
+    height: 550%;
+    width: 250%;
+}
+
 .dropdown-menu li a{
     font-weight: bold;
-    color: black;
-    margin: 10px;
+    font-size: 400%;
+    color: #00F482;
+    margin: 20px;
 }
 
-.divider{
-    margin: 10px;
-}
 
-.menuLines{
+
+
+.img-menuLines{
     width: 50%;
     height: 100%;
 }
 
-.logo-img {
+
+.divider{
+    margin: 50px;
+}
+
+.img-logo {
     margin: 40px;
 }
+
 .nav-desktop{
     display: none;
 }
-
 }
+
+
+
+
 
 @media screen and (min-width: 576px) {
     header{
@@ -83,6 +99,7 @@
         display: flex;
         justify-content: space-around;
     }
+    
     li:hover {
         color: #00F482;
     }
