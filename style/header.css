@@ -60,7 +60,6 @@ header{
     display: flex;
     justify-content: space-evenly;
     padding-top: 2%;
-    height: 10%;
 }
 .btn-menu {
     display: none;
@@ -69,9 +68,10 @@ header{
     display: flex;
     flex-grow: 1;
     justify-content: center;
+    align-items: center;
 }
 .img-logo{
-    height: 60%;
+    height: 90%;
 }
 .nav-desktop{
     display: flex;
@@ -82,6 +82,7 @@ header{
     justify-content: center;
     margin-right: 5%;
     margin-left: 5%;
+    align-items: center;
 }
 span {
     color: #00F482;
