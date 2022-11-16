@@ -45,9 +45,8 @@
 @media screen and (min-width: 576px) {
     footer {
         box-sizing: border-box;
-        margin: 0;
-        padding: 0;
         height: 10%;
+        padding-top: 2%;
     }
     .containerFooter {
         display: flex;

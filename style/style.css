@@ -18,6 +18,9 @@ body{
     background-color: #010020;
     height: 100%;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 
 /* Para movil */
 @media screen and (max-width: 576px){
