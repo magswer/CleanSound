@@ -58,7 +58,7 @@ main{
 main{
     display: flex;
     align-items: baseline;
-    height: 65%;
+    height: 70%;
 }
 .btn-mobile{
     display: none;
@@ -66,6 +66,7 @@ main{
 .box-one{
     padding-top: 4%;
     padding-left: 8%;
+    padding-right: 8%;
 }
 .txt-titleMain{
     margin: 0%;
@@ -91,7 +92,6 @@ main{
     display: none;
 }
 .box-two-desktop{
-    display: flex;
     align-self: center;
 }
 #img-principal{
