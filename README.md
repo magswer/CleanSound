@@ -12,6 +12,7 @@ Web recreation project for FemCoders bootcamp
 ## General Info  :musical_keyboard:
 ***
  Landing page development for a musical instrument company that plans to sell its flagship product: an electronic drum kit. 
+ The objective is to make a replica of the design of the landing page proposed by the client with the priority that the user can interact with the drumkit, in such a way that when he clicks on each of the "pads" a different sound is emitted.
  ***
  <i>Project in development process<i>
 
@@ -21,15 +22,14 @@ Web recreation project for FemCoders bootcamp
 
 ## Technologies :computer:
 ***
- [HTML5](https://openwebinars.net/blog/que-es-html5/): Version 12.3 
- [CSS3](https://openwebinars.net/blog/que-es-css3/): Version 2.34
- [JavaScript](https://www.javascript.com/): Version 1234
+ *[HTML5](https://openwebinars.net/blog/que-es-html5/): Version 12.3 
+ *[CSS3](https://openwebinars.net/blog/que-es-css3/): Version 2.34
+ *[JavaScript](https://www.javascript.com/): Version 1234
 
 ## Installation :bulb:
 ***
 ```
-$ Open your Visual code
-$ Open your New terminal
+$ Open your Visual code and a wew terminal
 $ git clone https://github.com/magswer/CleanSound.git
 $ npm install
 $ npm start
