@@ -12,6 +12,7 @@ Web recreation project for FemCoders bootcamp
 ## General Info  :musical_keyboard:
 ***
  Landing page development for a musical instrument company that plans to sell its flagship product: an electronic drum kit. 
+ ***
  <i>Project in development process<i>
 
 ### Screenshot :iphone:
@@ -20,9 +21,9 @@ Web recreation project for FemCoders bootcamp
 
 ## Technologies :computer:
 ***
-* [HTML5](https://openwebinars.net/blog/que-es-html5/): Version 12.3 
-* [CSS3](https://openwebinars.net/blog/que-es-css3/): Version 2.34
-* [JavaScript](https://www.javascript.com/): Version 1234
+ [HTML5](https://openwebinars.net/blog/que-es-html5/): Version 12.3 
+ [CSS3](https://openwebinars.net/blog/que-es-css3/): Version 2.34
+ [JavaScript](https://www.javascript.com/): Version 1234
 
 ## Installation :bulb:
 ***
