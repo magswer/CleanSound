@@ -6,7 +6,6 @@ Web recreation project for FemCoders bootcamp
 2. [Technologies](#technologies)
 3. [Installation](#installation)
 4. [Authors](#authors)
-5. [FAQs](#faqs)
 
 
 
@@ -21,14 +20,12 @@ Web recreation project for FemCoders bootcamp
 
 ## Technologies :computer:
 ***
-A list of technologies used within the project:
 * [HTML5](https://openwebinars.net/blog/que-es-html5/): Version 12.3 
 * [CSS3](https://openwebinars.net/blog/que-es-css3/): Version 2.34
 * [JavaScript](https://www.javascript.com/): Version 1234
 
 ## Installation :bulb:
 ***
-A little intro about the installation. 
 ```
 $ Open your Visual code
 $ Open your New terminal
@@ -38,7 +35,11 @@ $ npm start
 ```
 
 
-## Authors
+## Authors :couple_with_heart_woman_woman:
 ***
 * [Magda](https://github.com/magswer)
+* [Gaby](https://github.com/gabrielabarajas)
+* [Iris](https://github.com/mauisiri)
+* [Ameli](https://github.com/AmelieLT)
+* [Luisa](https://github.com/LuisaVAZ)
 
