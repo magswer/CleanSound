@@ -1,7 +1,7 @@
 # CleanSound
 Web recreation project for FemCoders bootcamp
 
-## Table of Contents
+## Table of Contents :technologist:
 1. [General Info](#general-info)
 2. [Technologies](#technologies)
 3. [Installation](#installation)
@@ -10,23 +10,23 @@ Web recreation project for FemCoders bootcamp
 
 
 
-## General Info :grinning:
+## General Info  :musical_keyboard:
 ***
  Landing page development for a musical instrument company that plans to sell its flagship product: an electronic drum kit. 
  <i>Project in development process<i>
 
-### Screenshot
+### Screenshot :iphone:
 ![Image text](/assets/images/hitthedombo-mobile.jpg/)
 ![Image text](/assets/images/hitthedombo.jpg)
 
-## Technologies
+## Technologies :computer:
 ***
 A list of technologies used within the project:
 * [HTML5](https://openwebinars.net/blog/que-es-html5/): Version 12.3 
 * [CSS3](https://openwebinars.net/blog/que-es-css3/): Version 2.34
 * [JavaScript](https://www.javascript.com/): Version 1234
 
-## Installation
+## Installation :bulb:
 ***
 A little intro about the installation. 
 ```
@@ -40,7 +40,5 @@ $ npm start
 
 ## Authors
 ***
-Give instructions on how to collaborate with your project.
-> Maybe you want to write a quote in this part. 
-> It should go over several rows?
-> This is how you do it.
+* [Magda](https://github.com/magswer)
+
