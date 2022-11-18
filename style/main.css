@@ -1,94 +1,90 @@
 @media screen and (max-width: 576px) {
-    main{
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        margin-top: 10%;
-        margin-bottom: 10%;
-    }
-    .circleHit{
-        margin-top: 50%;
-    }
-    .boxLeft{
-        width: 100%;
-        margin-left: 30%;
-    }
-    .titleMain{
-        width: 50%;
-        color: white;
-        font-size: 10vw;
-        font-weight: bold;
-    }
-    .textMain{
-        color: #545470;
-        font-size: 3vw;
-    }
-    .buttonHit{
-        height: 2.8rem;
-        width: 8.5rem;
-        border-radius: 1.5rem;
-        background-color: #00F482;
-        color: white;
-        border: none;
-    }
-    .boxRight{
-        display: flex;
-        width: 85%;
-        justify-items: center;
-    }
-    #img-principal{
-        width: 50%;
-    }
-    .botonMobile{
-        height: 20rem;
-        width: 20rem;
-        background-color: #19191C;
-        border-color: #27272D;
-        border-radius: 100%;
-        color: #545470;
-        font-size: large;
-    }
-    
+main{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 6%;
+    height: 58%;
+}
+.btn-circleHit{
+    margin-top: 50%;
+}
+.box-one{
+    width: 100%;
+    margin-left: 30%;
+}
+.txt-titleMain{
+    width: 50%;
+    color: white;
+    font-size: 8vw;
+    font-weight: bold;
+    line-height: 90%;
+    margin-top: 6%;
+}
+.txt-main{
+    color: #545470;
+    font-size: 3vw;
+}
+.btn-hit{
+    height: 2.8rem;
+    width: 8.5rem;
+    border-radius: 1.5rem;
+    background-color: #00F482;
+    color: white;
+}
+.box-two-mobile{
+    display: flex;
+    justify-items: center;
+}
+.box-two-desktop{
+    display: none;
+}
 }
 
 @media screen and (min-width: 576px) {
-    main{
-        display: flex;
-        align-items: center;
-        margin-top: 10%;
-        margin-bottom: 10%;
-    }
-    .botonMobile{
-        display: none;
-    }
-    .boxLeft{
-        padding-left: 10%;
-    }
-    .titleMain{
-        color: white;
-        font-size: 6vw;
-        font-weight: bold;
-        margin: 0%;
-        line-height: 90%;
-    }
-    .textMain{
-        color: #545470;
-        font-size: 1.4vw;
-    }
-    .buttonHit{
-        height: 2.8rem;
-        width: 8.5rem;
-        border-radius: 1.5rem;
-        background-color: #00F482;
-        color: white;
-        border: none;
-    }
-    .boxRight{
-        display: flex;
-        width: 100%;
-        align-self: center;
-    }
-    #img-principal{
-        width: 50%;
-    }
+main{
+    display: flex;
+    align-items: baseline;
+    padding-top: 1%;
+    height: 63%;
+}
+.btn-mobile{
+    display: none;
+}
+.box-one{
+    width: 40%;
+    padding-top: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.txt-titleMain{
+    margin: 0%;
+    color: white;
+    font-size: 4vw;
+    font-weight: bold;
+    line-height: 95%;
+}
+.txt-main{
+    padding-top: 4%;
+    color: #545470;
+    font-size: 1.2rem;
+}
+.btn-hit{
+    height: 4rem;
+    width: 14rem;
+    border-radius: 2rem;
+    background-color: #00f482;
+    color: white;
+}
+
+.box-two-mobile{
+    display: none;
+}
+.box-two-desktop{
+    display:flex;
+    align-self: center;
+    height: 100%;
+}
+
 }

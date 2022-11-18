@@ -10,87 +10,116 @@
 </head>
 <body>
 
-
 <!------------HEADER-------------->
   <header>
    
 
     <div class="btn-group">
-      <button type="button" class="btn-menu btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="./assets/images/menuLines.png" class="img-menuLines">
-      </button>
+        <button type="button" class="btn-menu btn-default dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="./assets/images/menuLines.png" class="img-menuLines">
+        </button>
 
-            <ul class="dropdown-menu" role="menu">
+        <ul class="dropdown-menu" role="menu">
               <li><a href="#">Premium</a></li>
               <li><a href="#">Help</a></li>
               <li><a href="#">Download</a></li>
               <li class="divider"></li>
               <li><a href="#">Sign Up</a></li>
               <li><a href="#">Log In</a></li>
-            </ul>
+        </ul>
     </div>
+<!---
+    <script>
+      let a = document.querySelector(".a")
+      
+      a.addEventListener("click", () => {
+        a.classList.toggle("cambiante")
+      })
+  </script>
+--->
 
+  <div class="img-logotype">
+      <img src="./assets/images/logo.png" class="img-logo">
+  </div>
 
-    <div class="img-logotype">
-        <img src="./assets/images/logo.png" class="img-logo">
-    </div>
-
-
-    <nav class="nav-desktop">
-      <ul>
-        <li>Premium</li>
-        <li>Help</li>
-        <li>Download</li>
-        <li><span>Sign Up</span></li>
-        <li class="stripe-logInLeft">Log In</li>
-      </ul>
-    </nav>
-  </header>
-
-
+  <nav class="nav-desktop">
+    <ul>
+      <li>Premium</li>
+      <li>Help</li>
+      <li>Download</li>
+      <li><span>Sign Up</span></li>
+      <li class="stripe-logInLeft">Log In</li>
+    </ul>
+  </nav>
+</header>
 
  <!------------MAIN-------------->
-
  <main>
-  <div class="circleHit">
-    <button class="botonMobile">Hit</button>
+
+  <div class="box-one">
+    <p class="txt-titleMain">Music for</p>
+    <p class="txt-titleMain">everyone.</p>
+    <p class="txt-main">Millions of songs. No credit cards needed.</p>
+    <button class="btn-hit">Hit the DOM</button>
   </div>
-  <div class="boxLeft">
-    <p class="titleMain">Music for everyone.</p>
-    <p class="textMain">Millions of songs. No credit cards needed.</p>
-    <button class="buttonHit">Hit the DOM</button>
+
+  <div class="box-two-mobile">
+    <img id ="img-principal" src="./assets/images/drumkit-MOBILE.png" usemap="#image-map" alt="drumkit">
+    <map name="image-map">
+      <area id="redoblante" type="audio" coords="96,176,44" shape="circle" >
+      <audio id="redoblante" src="/assets/sounds/redoblante.wav"></audio>
+
+      <area id="hit-hat" type="audio" coords="65,103,29" shape="circle">
+      <audio id="hit-hat" src="/assets/sounds/hit-hat.wav"></audio>
+
+      <area id="crash" type="audio" coords="36,44,29" shape="circle">
+      <audio id="crash" src="/assets/sounds/crash.wav"></audio>
+
+      <area id="tom1" type="audio" coords="143,80,42" shape="circle">
+      <audio id="tom1" src="/assets/sounds/tom1.wav"></audio>
+
+      <area id="tom2" type="audio" coords="231,80,38" shape="circle">
+      <audio id="tom2" src="/assets/sounds/tom2.wav"></audio>
+
+      <area id="tom3" type="audio" coords="307,103,28" shape="circle">
+      <audio id="tom3" src="/assets/sounds/tom3.wav"></audio>
+
+      <area id="tom4" type="audio" coords="335,44,29" shape="circle">
+      <audio id="tom4" src="/assets/sounds/tom4.wav"></audio>
+      
+      <area id="bombo" type="audio" coords="276,175,40" shape="circle">
+      <audio id="bombo" src="/assets/sounds/bombo (1).wav"></audio>
+    </map>
   </div>
-  <div class="boxRight">
-  <!--<img sid="img-principal" src="./assets/images/drumkit.png" alt="drumkit" width=100%>-->
 
-  <img src="/assets/images/drumkit.png" usemap="#image-map" alt="drumkit">
-<map name="image-map">
+  <div class="box-two-desktop">
+    <img id ="img-principal" src="/assets/images/drumkit.png" usemap="#image-map" alt="drumkit">
+    <map name="image-map">
+    <area id="redoblante" type="audio" coords="201,363,87" shape="circle" >
+    <audio id="redoblante" src="/assets/sounds/redoblante.wav"></audio>
+    
+    <area id="hit-hat" type="audio" coords="134,213,60" shape="circle">
+    <audio id="hit-hat" src="/assets/sounds/hit-hat.wav"></audio>
+    
+    <area id="crash" type="audio" coords="76,90,61" shape="circle">
+    <audio id="crash" src="/assets/sounds/crash.wav"></audio>
+    
+    <area id="tom1" type="audio" coords="294,166,84" shape="circle">
+    <audio id="tom1" src="/assets/sounds/tom1.wav"></audio>
+    
+    <area id="tom2" type="audio" coords="480,165,84" shape="circle">
+    <audio id="tom2" src="/assets/sounds/tom2.wav"></audio>
+    
+    <area id="tom3" type="audio" coords="638,212,62" shape="circle">
+    <audio id="tom3" src="/assets/sounds/tom3.wav"></audio>
+    
+    <area id="tom4" type="audio" coords="699,90,61" shape="circle">
+    <audio id="tom4" src="/assets/sounds/tom4.wav"></audio>
+    
+    <area id="bombo" type="audio" coords="575,365,83" shape="circle">
+    <audio id="bombo" src="/assets/sounds/bombo (1).wav"></audio>
+    </map>
 
-  <area id="redoblante" type="audio" coords="201,363,87" shape="circle" >
-  <audio id="redoblante" src="/assets/sounds/redoblante.wav"></audio>
-
-  <area id="hit-hat" type="audio" coords="134,213,60" shape="circle">
-  <audio id="hit-hat" src="/assets/sounds/hit-hat.wav"></audio>
-
-  <area id="crash" type="audio" coords="76,90,61" shape="circle">
-  <audio id="crash" src="/assets/sounds/crash.wav"></audio>
-
-  <area id="tom1" type="audio" coords="294,166,84" shape="circle">
-  <audio id="tom1" src="/assets/sounds/tom1.wav"></audio>
-
-  <area id="tom2" type="audio" coords="480,165,84" shape="circle">
-  <audio id="tom2" src="/assets/sounds/tom2.wav"></audio>
-
-  <area id="tom3" type="audio" coords="638,212,62" shape="circle">
-  <audio id="tom3" src="/assets/sounds/tom3.wav"></audio>
-
-  <area id="tom4" type="audio" coords="699,90,61" shape="circle">
-  <audio id="tom4" src="/assets/sounds/tom4.wav"></audio>
-  
-  <area id="bombo" type="audio" coords="575,365,83" shape="circle">
-  <audio id="bombo" src="/assets/sounds/bombo (1).wav"></audio>
-</map>
- 
 
   </div>
 </main>
@@ -100,11 +129,14 @@
 <!------------FOOTER-------------->
 
 <footer>
-    <div class="containerFooter">
-        <h3>Try premium free for 1 month.</h3>
-        <p class = subtextFooter>Play millions of songs ad-free, on demand, and offline.</p>
-        <button class= "buttonFooter">SEE PRICING</button>
-    </div>
+  <div class="containerFooter">
+    <div class="btn-circleHit">
+      <button class="btn-mobile">Hit</button>
+    </div class="txt-footer">
+    <h3>Try premium free for 1 month.</h3>
+    <p class = subtextFooter>Play millions of songs ad-free, on demand, and offline.</p>
+    <button class= "buttonFooter">SEE PRICING</button>
+  </div>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
