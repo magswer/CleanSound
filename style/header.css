@@ -2,14 +2,14 @@
 
 .btn-group {
     display: flex;
-    justify-content: left;
-    align-items: left;
-    margin: 0px 0px 0px 75%;
+    justify-content: right;
+    align-items: right;
+    margin: 0px 0px 0px 00%;
    
 }
 .btn-menu{
-    height: 2.8rem;
-    width: 6rem;
+    height: 4rem;
+    width: 8rem;
     border-radius: 1.5rem;
     background-color: #00F482;
     margin: 20px;
@@ -21,7 +21,6 @@
 
 .dropdown-menu {
     background-color: #010020;
-    opacity: 90%;
     height: 550%;
     width: 250%;
 }
@@ -32,6 +31,12 @@
     color: #00F482;
     margin: 20px;
 }
+
+/*
+.cambiante {
+    color: white;
+  }
+  */
 
 .img-menuLines{
     width: 50%;
